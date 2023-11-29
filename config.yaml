@@ -1,0 +1,10 @@
+student_email: n.roschupkin.dev@gmail.com
+postgres_cluster:
+  hosts:
+  - address: 192.168.0.107
+    port: 5432
+  user: postgres
+  password: 1234
+  db_name: postgres
+  ssl_mode: disable
+  use_closest_node: false
